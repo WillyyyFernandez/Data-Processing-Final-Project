@@ -1,6 +1,9 @@
 # Data-Processing-Final-Project
 
-Overview
+# Overview
+
 This project analyzes 1,185,605 COVID-19 patient records from Mexico to identify mortality patterns and risk factors. By integrating two national health surveillance datasets (137,030 recent records + 1,048,575 historical records), the study calculates case fatality rates across geographic regions, age groups, and comorbidity profiles. Key findings reveal dramatic disparities: elderly patients (60+) faced 25% mortality versus less than 1% for young adults, chronic kidney disease emerged as the deadliest comorbidity (26.58% CFR), and state-level mortality varied six-fold from 1.40% (Ciudad de México) to 9.04% (Guerrero). The analysis demonstrates that cumulative comorbidity burden creates exponential risk, with patients having 3+ conditions experiencing seven times higher mortality than those without underlying conditions.
-Repository Contents
+
+# Repository Contents
+
 The Jupyter notebook performs data cleaning, integration, and analysis, generating five CSV outputs: state-level CFR for mapping, top 5 comorbidities by mortality, intubation statistics (13.93% of hospitalized patients required mechanical ventilation), daily time series of cases and deaths, and mortality rates by comorbidity count. The analysis handles coded values (converting "98" to null), creates derived variables (age groups, death indicators, comorbidity counts), and calculates case fatality rates using standard epidemiological methods. Results inform public health policy recommendations including targeted screening for high-risk populations, regional healthcare resource allocation, and pandemic preparedness planning focused on protecting elderly individuals and patients with chronic kidney disease, COPD, and diabetes.
